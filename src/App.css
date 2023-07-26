@@ -1,0 +1,18 @@
+.auth-container{
+    background: #f54236;
+    height: 93vh;
+}
+.image-conatiner{
+    padding:2rem;
+}
+.auth-inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 60rem; */
+}
+.login-btn{
+    background:#f54236;
+    border: none;
+    width: 100%;
+}
