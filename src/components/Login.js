@@ -42,7 +42,7 @@ export default function Login({setUser}){
                             </Button>
                             </Form>
                             <div style={{display:'flex',justifyContent:'center',marginTop:20}}>
-                                New here? Please Sign Up
+                                <span onClick={()=>navigate('/signup')}>New here? Please Sign Up</span> 
                             </div>
                         </Card.Body>
                         </Card>
