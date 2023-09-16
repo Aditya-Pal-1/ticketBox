@@ -47,7 +47,7 @@ export default function Signup({setUser}){
                             </Button>
                             </Form>
                             <div style={{display:'flex',justifyContent:'center',marginTop:20}}>
-                                Already have an account? Please Login
+                                <span onClick={()=>navigate('/login')}>Already have an account? Please Login</span>
                             </div>
                         </Card.Body>
                         </Card>
